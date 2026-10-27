@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/CSS/login.css">
+</head>
+<body>
+    <section class="login">
+        <div class="login-container">
+            <!-- Left Section -->
+            <div class="login-left">
+                <span class="section-badge">
+                    Smart EV Platform
+                </span>
+                <h1>
+                    Welcome Back to ChargeNest
+                </h1>
+                <p>
+                    Sign in to monitor charging stations, manage bookings,
+                    and access your EV charging dashboard from anywhere.
+                </p>
+                <!-- Replace later with your illustration -->
+                <img src="/Images/login-illustration.svg"
+                    alt="Login Illustration">
+            </div>
+            <!-- Right Section -->
+            <div class="login-right">
+                <h2>Sign In</h2>
+                <p class="form-description">
+                    Continue managing your EV charging ecosystem.
+                </p>
+                <form action="/login" method="POST">
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <a href="/forgot-password" class="forgot-password">
+                        Forgot Password?
+                    </a>
+                    <button class="login-btn">
+                        Sign In
+                    </button>
+                </form>
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                <button class="google-btn">
+                    <img src="/Images/google.svg"
+                        alt="Google">
+                    Continue with Google
+                </button>
+                <p class="register-link">
+                    Don't have an account?
+                    <a href="/register">
+                        Create Account
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/CSS/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="register">
+        <div class="register-container">
+            <!-- Left Section -->
+            <div class="register-left">
+                <span class="section-badge">
+                    Smart EV Platform
+                </span>
+                <h1>
+                    Join ChargeNest Today
+                </h1>
+                <p>
+                    Create your account to manage EV charging,
+                    monitor usage, and simplify charging for
+                    apartment communities and businesses.
+                </p>
+                <!-- Illustration goes here -->
+                <img src="/Images/register-illustration.svg"
+                    alt="Register Illustration">
+            </div>
+            <!-- Right Section -->
+            <div class="register-right">
+                <h2>Create Account</h2>
+                <p class="form-description">
+                    Start managing smarter EV charging in minutes.
+                </p>
+                <form action="/register" method="POST">
+                    <input type="text" name="fullname" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <input type="password" name="confirmPassword" placeholder="Confirm Password" required>
+                    <button class="register-btn">
+                        Create Account
+                    </button>
+                </form>
+                <div class="divider">
+                    <span>OR</span>
+                </div>
+                <button class="google-btn">
+                    <img src="/Images/google.svg">
+                    Continue with Google
+                </button>
+                <p class="login-link">
+                    Already have an account?
+                    <a href="/login">
+                        Login
+                    </a>
+                </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

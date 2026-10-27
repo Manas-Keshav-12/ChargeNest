@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="/CSS/about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <%- include("navbar") %>
+    <section class="about-hero">
+        <div class="about-container">
+            <div class="about-left">
+                <span class="section-badge">
+                    ⚡ About ChargeNest
+                </span>
+                <h1>
+                    Building the Future of
+                    Smart EV Charging
+                    for Apartment Communities
+                </h1>
+                <p>
+                    ChargeNest is a modern SaaS platform designed to simplify EV charging
+                    management for apartment communities. We help residents reserve charging
+                    slots, monitor charger availability in real time, and give property
+                    managers complete control through one intelligent dashboard.
+                </p>
+                <div class="about-buttons">
+                    <a href="/register" class="primary-btn">
+                        Get Started
+                    </a>
+                    <a href="/contact" class="secondary-btn">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+            <div class="about-right">
+                <!-- Illustration goes here -->
+            </div>
+        </div>
+    </section>
+
+    <section class="our-story">
+        <div class="story-container">
+            <div class="story-left">
+                <span class="section-badge">
+                    Our Story
+                </span>
+                <h2>
+                    Solving the Everyday Challenges
+                    of EV Charging
+                </h2>
+            </div>
+            <div class="story-right">
+                <p>
+                    As electric vehicles become increasingly common, apartment communities
+                    face a growing challenge—limited charging stations, unorganized usage,
+                    and uncertainty about charger availability. Residents often waste time
+                    waiting for chargers, while property managers struggle to monitor and
+                    coordinate charging schedules efficiently.
+                </p>
+                <p>
+                    ChargeNest was created to eliminate these challenges. Our platform
+                    brings together smart slot booking, real-time charger monitoring,
+                    automated notifications, and powerful management tools into one
+                    seamless solution that benefits both residents and apartment
+                    administrators.
+                </p>
+                <p>
+                    We believe EV charging should be as convenient as booking a parking
+                    space—simple, transparent, and accessible for everyone.
+                </p>
+            </div>
+        </div>
+    </section>
+    <%- include("footer") %>
+</body>
+</html>
