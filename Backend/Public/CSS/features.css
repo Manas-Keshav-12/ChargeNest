@@ -64,7 +64,6 @@ html {
     padding: 35px;
     width: 100%;
     max-width: 370px;
-    min-height: 310px;
     border-radius: 20px; 
     box-shadow: 0 8px 24px rgba(15, 23, 48, 0.18);
     transition: transform 0.3s ease;   
